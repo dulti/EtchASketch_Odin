@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    width: 99vw;
+    height: 85vh;
+    max-height: 85vmin;
+    max-width: 99vmin;
+    border: 1px solid black;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: lightblue;
+    border-radius: 2px;
+    border: 0;
+}
